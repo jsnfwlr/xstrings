@@ -7,7 +7,7 @@ import (
 	"unicode/utf8"
 )
 
-// ExpandTabs can expand tabs ('\t') rune in str to one or more spaces dpending on
+// ExpandTabs can expand tabs ('\t') rune in str to one or more spaces depending on
 // current column and tabSize.
 // The column number is reset to zero after each newline ('\n') occurring in the str.
 //
